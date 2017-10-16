@@ -1,0 +1,43 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-brand {
+	font-size: 1.9em;
+}
+
+h1 {
+	font-size: 1.9em;
+	font-weight: bold;
+
+}
+
+p.smt {
+	font-weight: bold;
+	font-size: 1.5em;
+	margin: 10px;
+	text-align: center;
+
+}
+
+.col-xs-12 {
+	background-color: grey;
+	padding: 0px 30px 30px 30px;
+
+}
+
+p {
+		text-align: left;
+}
+
+section.container {
+	 margin-top: 50px;
+	 height: 1000px;
+}
+
+
+@media (max-width: 768px) {
+	section.container {
+		margin: 50px 80px 10px 80px;
+	}
+}
